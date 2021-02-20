@@ -1,5 +1,7 @@
 body {
     margin: 0;
+
+    text-align: center;
 }
 
 .self {
@@ -74,4 +76,21 @@ p {
     font-family: fantasy;
     font-size: 20px;
 
+}
+
+.links:hover {
+    background-color: yellow;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.article:hover {
+    background-color: cyan;
 }
