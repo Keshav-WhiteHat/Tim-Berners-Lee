@@ -56,30 +56,30 @@ p {
 }
 
 .menu {
-    list-style: none;
     font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+
 
 }
 
 .links {
-    float: left;
-    color: white;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px;
+    display: inline;
 
 }
 
 .links:hover {
     background-color: yellow;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 html {
@@ -88,9 +88,39 @@ html {
 
 a {
     text-decoration: none;
+    color: aqua;
+    text-shadow: 2px 2px gainsvoro;
+
+
 
 }
 
 .article:hover {
     background-color: cyan;
+}
+
+#writings a {
+    text-shadow: none:important;
+    text-decoration: underline:important;
+    color: blueviolet:important;
+}
+
+#contact {
+    background: firebrick;
+
+}
+
+#contact iframe {
+    width: 100%;
+
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.contact a {
+    color: white;
+    text-shadow: none;
+
 }
